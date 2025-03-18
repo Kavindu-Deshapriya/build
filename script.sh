@@ -13,6 +13,7 @@ apt install -y \
 
 # Clone necessary repositories
 apt install build-essential -y
+apt install bc -y
 ln -s /usr/bin/python3 /usr/bin/python
 git clone --depth=1 https://github.com/Kavindu-Deshapriya/android_kernel_RMX3063Q.git
 cd android_kernel_RMX3063Q

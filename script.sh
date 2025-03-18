@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Update and upgrade the system
-apt update
-apt upgrade -y
+# apt update
+# apt upgrade -y
 
 # Install necessary packages
 apt install -y \

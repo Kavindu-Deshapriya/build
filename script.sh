@@ -12,7 +12,7 @@ apt install -y \
     libarchive-tools gcc-aarch64-linux-gnu pigz python3 python2
 
 # Clone necessary repositories
-apt install build-essential
+apt install build-essential -y
 git clone --depth=1 https://github.com/Kavindu-Deshapriya/android_kernel_RMX3063Q.git
 cd android_kernel_RMX3063Q
 git clone --depth=1 https://github.com/techyminati/android_prebuilts_clang_host_linux-x86_clang-5484270 clang
